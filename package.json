@@ -1,0 +1,41 @@
+{
+    "name": "meanauthapp",
+    "version": "1.0.0",
+    "description": "MEAN stack authentication app",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app"
+    },
+    "dependencies": {
+
+        "express": "*",
+
+        "mongoose": "*",
+
+        "bcryptjs": "*",
+
+        "cors": "*",
+
+        "jsonwebtoken": "*",
+
+        "body-parser": "*",
+
+        "passport": "*",
+
+        "passport-jwt": "*"
+    },
+
+    "dependenciesComments": {
+        "express": "for the routes",
+        "mongoose": "to interact with the mongodb noSQL database",
+        "bcryptjs": "password encryption, designed to be slow, password hashing",
+        "cors": "to be able to make request from/to different ports",
+        "jsonwebtoken": "generate jwt tokens to authenticate different routes",
+        "body-parser": "allows express to read the body of POST,etc and parses that into a JSON object",
+        "passport": "request authentication",
+        "passport-jwt": "JSON web token authentication"
+    },
+    "author": "Sean Townsend",
+    "license": "ISC"
+}
